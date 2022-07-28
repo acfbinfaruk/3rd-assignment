@@ -1,0 +1,25 @@
+/* navbar styles */
+
+
+
+
+/* carousal styles */
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.6;
+}
+.carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+.carousel-caption h1{
+    font-size: 250%;
+}
+
