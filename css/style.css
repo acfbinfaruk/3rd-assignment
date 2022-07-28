@@ -1,7 +1,8 @@
-/* navbar styles */
 
-
-
+/* text color  */
+.colored-text{
+    color: #289BDE;
+}
 
 /* carousal styles */
 .carousel-item::before{
@@ -23,3 +24,19 @@
     font-size: 250%;
 }
 
+
+/* button styles */
+.primary-button{
+    background-color: #289BDE;
+    border: none;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+#navRegBtn{
+    border: 1px solid #289BDE;
+}
+
+/* register section styles */
+.register-bg{
+    background-color: #289BDE;
+}
