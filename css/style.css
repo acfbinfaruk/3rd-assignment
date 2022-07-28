@@ -1,3 +1,15 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/* common styles */
+h1{
+    font-weight: 700;
+}
+
+
 
 /* text color  */
 .colored-text{

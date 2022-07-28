@@ -7,6 +7,7 @@
     <title>Sky High Tech</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/35fbea43dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -18,12 +19,13 @@
     -------->
 
     <header>
-        <!-- nav section starts -->
+        <!-------- nav section starts -------->
         <section class="container">
             <nav class="navbar navbar-expand-lg bg-white bg-opacity-100 fixed-top">
                 <div class="container d-flex justify-content-between">
                     <div>
-                        <a class="navbar-brand fw-semibold fs-3 me-0" href="#"><span class="colored-text">Sky High Tech</span></a>
+                        <a class="navbar-brand fw-semibold fs-3 me-0" href="#"><span class="colored-text">Sky High
+                                Tech</span></a>
                     </div>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -37,20 +39,22 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#explore">Explore</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#aboutUs">About</a>
                             </li>
                         </ul>
                         <div>
-                            <button class="btn border-1 rounded-1 fw-semibold px-3 py-2" id="navRegBtn" type="" ><span class="colored-text">Register</span></button>
+                            <button class="btn border-1 rounded-1 fw-semibold px-3 py-2" id="navRegBtn" type="">
+                                <span class="colored-text">Register</span>
+                            </button>
                         </div>
 
                     </div>
@@ -59,11 +63,11 @@
             </nav>
 
         </section>
-        <!-- nav section ends -->
+        <!--------- nav section ends -------->
 
 
 
-        <!-- slider section starts  -->
+        <!--------- slider section starts  --------->
 
         <section class="container mt-5 pt-4 mb-5">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -72,27 +76,33 @@
                         <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-block px-5 align-items-center">
                             <h1 class="fw-semibold fs-1 text-capitalize">get started digital learning</h1>
-                            <p class="text-white d-none d-sm-block">Some representative placeholder content for the
-                                first slide.</p>
-                            <button class="btn btn-primary text-white fw-semibold primary-button" type="">Get Started</button>
+                            <p class="text-white d-none d-sm-block">Learn the best from the best teachers and trainers
+                                in the world. Join more than 87 Million+ students all over the world learning from us.
+                            </p>
+                            <button class="btn btn-primary text-white fw-semibold primary-button" type="">Get
+                                Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-2.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-block px-5">
                             <h1 class="fw-semibold fs-1 text-capitalize">get access to your dream profession</h1>
-                            <p class="text-white d-none d-sm-block">Some representative placeholder content for the
-                                first slide.</p>
-                            <button class="btn btn-primary text-white fw-semibold primary-button" type="">Get Started</button>
+                            <p class="text-white d-none d-sm-block">Learn the best from the best teachers and trainers
+                                in the world. Join more than 87 Million+ students all over the world learning from us.
+                            </p>
+                            <button class="btn btn-primary text-white fw-semibold primary-button" type="">Get
+                                Started</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-3.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-block px-5">
                             <h1 class="fw-semibold fs-1 text-capitalize">get the best out of yourself</h1>
-                            <p class="text-white d-none d-sm-block">Some representative placeholder content for the
-                                first slide.</p>
-                            <button class="btn btn-primary text-white fw-semibold primary-button" type="">Get Started</button>
+                            <p class="text-white d-none d-sm-block">Learn the best from the best teachers and trainers
+                                in the world. Join more than 87 Million+ students all over the world learning from us.
+                            </p>
+                            <button class="btn btn-primary text-white fw-semibold primary-button" type="">Get
+                                Started</button>
                         </div>
                     </div>
                 </div>
@@ -110,7 +120,7 @@
 
         </section>
 
-        <!-- slider section ends  -->
+        <!-------- slider section ends  -------->
     </header>
 
     <!--------- 
@@ -124,11 +134,13 @@
     -------------->
 
     <main>
-        <!-- Course section starts. -->
-        <section class="container mb-5">
+
+        <!-------- Course section starts. ------->
+        <section class="container mb-5" id="courses">
             <div class="text-center mb-5">
                 <h1 class="text-capitalize">discover our popular <br> courses</h1>
-                <p>Sky High Tech offers you a wide choice of training courses in<br> the field of Information and
+                <p class="text-black-50">Sky High Tech offers you a wide choice of training courses in<br> the field of
+                    Information and
                     Technology</p>
             </div>
             <div class="mb-4">
@@ -182,8 +194,7 @@
                                     <div class="card-body pb-0">
                                         <h5 class="card-title">Fullstack Web Development</h5>
                                         <p class="card-text text-black-50 fw-semibold">Try a full stack web development
-                                            course on Sky High Tech and learn the most in-demand website coding skills
-                                            with the help of real-world experts
+                                            course on Sky High Tech and learn the most in-demand website coding skills.
                                         </p>
                                         <p class="fw-bold colored-text">Price: 250$</p>
                                     </div>
@@ -221,8 +232,8 @@
                                     <div class="card-body pb-0">
                                         <h5 class="card-title">Photography Basic Rules</h5>
                                         <p class="card-text text-black-50 fw-semibold">Take a photography course with
-                                            real world experts on Udemy. We have classes that will fit any skill level,
-                                            from camera use to photo editing software.
+                                            real world experts on Sky High tech. We have classes that will fit any skill
+                                            level.
                                         </p>
                                         <p class="fw-bold colored-text">Price: 250$</p>
                                     </div>
@@ -240,9 +251,9 @@
                                 <div class="col-sm-12 col-md-8">
                                     <div class="card-body pb-0">
                                         <h5 class="card-title">Motion Graphics</h5>
-                                        <p class="card-text text-black-50 fw-semibold">This is a wider card with
-                                            supporting text below as a
-                                            natural lead-in to additional content. This content is a little bit longer.
+                                        <p class="card-text text-black-50 fw-semibold">Learn Motion Graphics online at
+                                            your own pace. Start today and improve your skills. Join millions of
+                                            learners from around the world.
                                         </p>
                                         <p class="fw-bold colored-text">Price: 250$</p>
                                     </div>
@@ -256,37 +267,37 @@
                 <button class="btn btn-primary rounded-1 text-capitalize primary-button">see all courses</button>
             </div>
         </section>
-        <!-- Course section ends. -->
-        <!-- blog section starts. -->
-        <section class="container d-md-flex d-lg-flex align-items-center mb-5">
+        <!-------- Course section ends. ------->
+
+        <!-------- blog section starts. ------->
+        <section class="container d-md-flex d-lg-flex align-items-center mb-5" id="explore">
             <div class="container-fluid mb-sm-3">
                 <img class="img-fluid h-100" src="images/working.png" alt="">
             </div>
             <div class="container-fluid ms-lg-0 ms-md-1 ms-sm-1 px-sm-2 px-lg-5 px-md-4">
                 <h1>Explore The E-learning Institute</h1>
-                <p>
-                    <span>There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered alteration in some form, by injected humour, or
-                        randomised words which don't look even slightly believable. If you are going
-                        to use a passage of Lorem Ipsum, you need to be sure</span>
+                <p class="text-black-50">
+                    <span>With more world-class content launching every week, there are always new topics to explore,
+                        new skills to learn, and new ways to achieve your goals. These latest courses, Specializations,
+                        and Professional Certificate programs cover everything from strategic leadership to learning
+                        habits. What will you learn next?</span>
                     <br>
-                    <br>
-                    <span>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
-                        Internet tend to repeat predefined.</span>
+                    <span>Become your own boss by learning to manage the clients, workload, and brand of your freelance
+                        business.</span>
                 </p>
                 <div class="">
                     <div class="row">
-                        <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4">
                             <h1>3.2K+</h1>
-                            <p>Online experts</p>
+                            <p class="text-black-50">Online experts</p>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4">
                             <h1>600+</h1>
-                            <p>Expert Members</p>
+                            <p class="text-black-50">Expert Members</p>
                         </div>
-                        <div class="col-sm-6 col-md-6 col-lg-4">
+                        <div class="col-6 col-sm-6 col-md-6 col-lg-4">
                             <h1>1K+</h1>
-                            <p>Ratings & Reviews</p>
+                            <p class="text-black-50">Ratings & Reviews</p>
                         </div>
                     </div>
                 </div>
@@ -296,21 +307,22 @@
             </div>
 
         </section>
-        <!-- blog section ends. -->
-        <!-- register section starts. -->
+        <!-------- blog section ends. --------->
+
+        <!-------- register section starts. -------->
         <section class="container mb-5">
-            <div class="container text-white d-md-flex d-lg-flex align-items-center rounded register-bg">
+            <div class="container text-white d-md-flex d-lg-flex align-items-center rounded register-bg pb-3">
                 <div class="d-flex flex-column justify-content-center p-5">
                     <h2 class="pb-3">Ready To Join?</h2>
-                    <p class="pb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, non nam commodi,
-                        minima doloribus
-                        eum deserunt culpa dolorem eveniet amet ut esse totam veritatis itaque qui? Tenetur quia dolor
-                        aut?</p>
+                    <p class="pb-0">Join now to receive personalized recommendations from the full catalog. Professional
+                        Certificates offer flexible, online training designed to get you job-ready for high-growth
+                        fields.</p>
                 </div>
                 <div class="container-fluid d-flex justify-content-center">
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary bg-white rounded-1 text-primary fw-semibold px-3 py-2"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="colored-text">Register Now</span></button>
+                        data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="colored-text">Register
+                            Now</span></button>
 
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -347,14 +359,15 @@
                 </div>
 
         </section>
-        <!-- resister section ends. -->
+        <!-------- register section ends. -------->
 
-        <!-- Successful students section starts. -->
-        <section class="container mb-5">
+        <!------- Successful students section starts. ------->
+        <section class="container mb-5" id="success">
 
             <div class="text-center mb-5">
                 <h1 class="text-capitalize">meet our successful<br>students</h1>
-                <p>Sky High Tech offers you a wide choice of training courses in<br> the field of Information and
+                <p class="text-black-50">Sky High Tech offers you a wide choice of training courses in<br> the field of
+                    Information and
                     Technology</p>
             </div>
             <div class="card-deck row g-4 mb-5">
@@ -368,7 +381,7 @@
                 <div class="card col-sm-12 col-md-6 col-lg-3 border-0">
                     <img class="card-img-top" src="images/student/student-2.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Nazifa Akter</h5>
+                        <h5 class="card-title">Selena Gomes</h5>
                         <p class="card-text text-black-50 fw-semibold">Web Developer</p>
                     </div>
                 </div>
@@ -382,7 +395,7 @@
                 <div class="card col-sm-12 col-md-6 col-lg-3 border-0">
                     <img class="card-img-top" src="images/student/student-4.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Nazia Akter</h5>
+                        <h5 class="card-title">Billie Eilish</h5>
                         <p class="card-text text-black-50 fw-semibold">SEO Developer</p>
                     </div>
                 </div>
@@ -391,14 +404,14 @@
                 <button class="btn btn-primary fw-semibold primary-button">View All</button>
             </div>
         </section>
-        <!-- Successful students section ends. -->
+        <!------- Successful students section ends. ------->
 
-        <!-- FAQ section starts  -->
+        <!------- FAQ section starts  ------->
         <section class="container mb-5">
             <div class="text-center mb-5">
                 <h1 class="text-capitalize">frequently asked question</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia officia ducimus accusamus recusandae,
-                    at necessitatibus.</p>
+                <p class="text-black-50">Some of the most Frequently Asked Questions in our Website by our dear students
+                    and visitors</p>
             </div>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -463,10 +476,10 @@
             </div>
 
         </section>
-        <!-- FAQ section ends -->
+        <!------- FAQ section ends ------->
 
-        <!-- companies section starts -->
-        <section class="container mb-5 d-sm-none d-md-none d-lg-block">
+        <!------- companies section starts ------->
+        <section class="container mb-5 d-none d-sm-none d-md-none d-lg-block">
             <div class="text-center mb-5">
                 <h1 class="text-capitalize">trusted by over 800+ companies</h1>
             </div>
@@ -480,7 +493,7 @@
             </div>
 
         </section>
-        <!-- companies section ends -->
+        <!------- companies section ends ------->
     </main>
 
     <!-------------
@@ -492,21 +505,22 @@
     -------------->
 
     <section class="container-fluid bg-dark text-white py-5">
-        <div class="text-center">
+        <div class="text-center mb-4">
             <h2 class="text-capitalize mb-4">sky high tech</h2>
             <p>Office 41, B.K. Tower, Purana Paltan <br> Dhaka, Bangladesh.</p>
-            <a class="text-decoration-none text-white" href="">Privacy Policy</a> | <a
-                class="text-decoration-none text-white" href="">Terms of Use</a>
+            <a class="text-decoration-none text-white" href="#">Privacy Policy</a> |
+            <a class="text-decoration-none text-white" href="#">Terms of Use</a> |
+            <a class="text-decoration-none text-white" href="#" id="aboutUs">About Us</a>
         </div>
         <div class="d-flex justify-content-center align-items-center">
             <div class="d-flex gap-3">
-                <a class="text-white bg-dark border-0 fs-5" href="" target="_blank"><i
+                <a class="text-white bg-dark border-0 fs-5" href="https://www.facebook.com/" target="_blank"><i
                         class="fa-brands fa-facebook"></i></a>
-                <a class="text-white bg-dark border-0 fs-5" href="" target="_blank"><i
+                <a class="text-white bg-dark border-0 fs-5" href="https://www.twitter.com/" target="_blank"><i
                         class="fa-brands fa-twitter"></i></a>
-                <a class="text-white bg-dark border-0 fs-5" href="" target="_blank"><i
+                <a class="text-white bg-dark border-0 fs-5" href="https://www.instagram.com/" target="_blank"><i
                         class="fa-brands fa-instagram"></i></a>
-                <a class="text-white bg-dark border-0 fs-5" href="" target="_blank"><i
+                <a class="text-white bg-dark border-0 fs-5" href="https://www.linkedin.com/" target="_blank"><i
                         class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
